@@ -1,0 +1,38 @@
+body{
+	background-color: darkgrey;
+}
+
+.card{
+	margin: 30px 70px;
+}
+
+.info{
+	display: none;
+}
+
+.animation{
+	background-image: url(../img/road-sm.png);
+	background-repeat: repeat-x;
+	height: 100px;
+}
+
+.car{
+	transform: translate(0, 2px);
+}
+
+
+@media (max-width: 1200px) { 
+
+.info{
+	display: inline;
+}
+
+.animation{
+	display: none;
+}
+
+.car{
+	display: none;
+}
+
+}
