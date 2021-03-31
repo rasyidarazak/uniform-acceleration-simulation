@@ -15,3 +15,9 @@ body {
 .car {
   transform: translate(0, 2px);
 }
+
+@media (max-width: 575.98px) {
+  .card {
+    margin: 30px 35px;
+  }
+}
