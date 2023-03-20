@@ -1,9 +1,3 @@
-$(window).on("load", function () {
-  let dt = new Date();
-  let year = document.getElementById("year");
-  year.innerHTML = dt.getFullYear();
-});
-
 $("#calculate").on("click", function () {
   let carDistance = 0;
   let car = document.getElementById("car");
